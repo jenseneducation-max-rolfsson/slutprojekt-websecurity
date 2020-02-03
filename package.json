@@ -18,6 +18,8 @@
   },
   "homepage": "https://github.com/zocom-david-lundholm/slutprojekt-websecurity#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "express-jwt": "^5.3.1",
+    "jsonwebtoken": "^8.5.1"
   }
 }
