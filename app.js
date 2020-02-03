@@ -29,7 +29,7 @@ app.get('/verify',jwtVerifier({secret:secret}), (req,res) => {
 })
 
 app.use((err, req, res, next) => {
-    if( err.name === 'UnathorizedError'){
+    if( err.name === 'UnauthorizedError'){
         res.status(500).send(err.message);
     }
 });
